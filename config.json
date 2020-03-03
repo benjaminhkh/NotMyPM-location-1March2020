@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Benjamin Hu"
+  },
+  "text": {
+    "more": "Twitter Conversation on #NotMyPM, approximately 9am to 1pm on 1 March 2020. ",
+    "intro": "Twitter Conversation on #NotMyPM, approximately 9am to 1pm on 1 March 2020.",
+    "title": "#NotMyPM - 1 March 2020"
+  },
+  "legend": {
+    "edgeLabel": "Connection between two nodes",
+    "colorLabel": "Location of User (see Groups)",
+    "nodeLabel": " A twitter entity"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "location",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 4,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 15
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 9
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
